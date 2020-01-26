@@ -21,42 +21,41 @@ body.active {
 }
 .list-group{
     max-height: 165px;
-    max-width: 1000px;
+    max-width: 700px;
     margin-bottom: 10px;
     list-style-type:none;
     align-items: center;
     align-content: center;
     font-size: 1.2em;
     font-family: "Times New Roman", Times, serif;
+    overflow: hidden;
+    padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    box-sizing: content-box;
 }
 .list-group li {
     text-align: left;
     align-items: center;
     align-content: center;
   }
+
+.courses-block li {
+    margin:0 20px 20px 0;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll {
-    overflow: scroll;
+    overflow-y: unset;
     overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: auto;
     color: black;
- }
- .scroll::-webkit-scrollbar {
-     width: 12px;
- }
- 
- .scroll::-webkit-scrollbar-track {
-     box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-     -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3); 
-     border-radius: 10px;
- }
- 
- .scroll::-webkit-scrollbar-thumb {
-     border-radius: 10px;
-     box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
-     -webkit-box-shadow: inset 0 0 6px rgba(255, 0, 0, 0.5); 
+    -webkit-scrollbar-display: none;
  }
 .courses-block {
-    max-width: 1000px;
+    max-width: 700px;
     max-height: 250px;
     margin: 0 auto 30px auto;
     padding: 15px;
