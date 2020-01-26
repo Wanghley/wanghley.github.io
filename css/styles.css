@@ -31,11 +31,14 @@ body.active {
 }
 .list-group li {
     text-align: left;
+    align-items: center;
+    align-content: center;
   }
 .scroll {
     overflow: scroll;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
+    color: black;
  }
  .scroll::-webkit-scrollbar {
      width: 12px;
@@ -43,7 +46,7 @@ body.active {
  
  .scroll::-webkit-scrollbar-track {
      box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+     -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3); 
      border-radius: 10px;
  }
  
@@ -59,6 +62,7 @@ body.active {
     padding: 15px;
     border: 1px solid #dcd9d9;
     text-align: center;
+    align-items: center;
 }
 
 .no-js #experience-timeline>div {
