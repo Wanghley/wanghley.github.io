@@ -31,7 +31,24 @@ img.face{
     padding: 5px;
     width: 40%;
 }
-
+.carousel{
+    background: #217dbb;
+    margin-top: 20px;
+    min-width: 50%;
+    max-width: 60%;
+    align-items: center;
+}
+.carousel-item{
+    text-align: center;
+    min-height: 250px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.bs-example{
+    margin: 20px;
+    min-width: 80%;
+    text-align: center;
+    align-content: center;
+    display: inline-block
+}
 .iconDetails {
     margin-left:1%;
     margin-right: 2%;
@@ -86,7 +103,7 @@ img.face{
 
 .no-js #experience-timeline>div {
     background: #fff;
-    padding: 10px;
+    padding: 5px;
     margin-bottom: 10px;
     border: 1px solid #dcd9d9;
 }
@@ -385,7 +402,7 @@ footer {
     color: #374054;
 }
 #experience-timeline {
-    margin: 30px auto 0 auto;
+    margin: auto 0 auto;
     position: relative;
     max-width: 1000px;
 }
