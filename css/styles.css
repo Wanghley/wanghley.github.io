@@ -25,6 +25,12 @@ table {
 table .img_td {
     width: 20%;
 }
+img.face{
+    float: right;
+    border: transparent thin solid;
+    padding: 5px;
+    width: 40%;
+}
 
 .iconDetails {
     margin-left:1%;
