@@ -12,6 +12,10 @@
 
 (function($) {
 
+    //pass the carousel
+    $('#blogCarousel').carousel({
+        interval: 5000
+    });
     // Remove no-js class
     $('html').removeClass('no-js');
 
@@ -95,3 +99,4 @@
     });
 
 })(jQuery);
+

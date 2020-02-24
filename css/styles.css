@@ -25,29 +25,33 @@ table {
 table .img_td {
     width: 20%;
 }
+
 img.face{
     float: right;
     border: transparent thin solid;
     padding: 5px;
     width: 40%;
 }
-.carousel{
-    background: #217dbb;
-    margin-top: 20px;
-    min-width: 50%;
-    max-width: 60%;
-    align-items: center;
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+    text-decoration: none;
+
 }
-.carousel-item{
-    text-align: center;
-    min-height: 250px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 30%;
+    text-decoration: none;
+    width: 8px;
+    height: 8px;
 }
-.bs-example{
-    margin: 20px;
-    min-width: 80%;
-    text-align: center;
-    align-content: center;
-    display: inline-block
+
+.blog .carousel-indicators .active {
+background: #707070;
+text-decoration: none;
 }
 .iconDetails {
     margin-left:1%;
@@ -58,7 +62,7 @@ img.face{
 }
 .list-group{
     max-height: 165px;
-    max-width: 700px;
+    max-width: 80%;
     margin-bottom: 10px;
     list-style-type:none;
     align-items: center;
@@ -92,8 +96,8 @@ img.face{
     -webkit-scrollbar-display: none;
  }
 .courses-block {
-    max-width: 700px;
-    max-height: 250px;
+    max-width: 80%;
+    max-height: 330px;
     margin: 0 auto 30px auto;
     padding: 15px;
     border: 1px solid #dcd9d9;
@@ -495,7 +499,7 @@ footer {
     margin-bottom: 50px;
 }
 .education-block {
-    max-width: 700px;
+    max-width: 80%;
     margin: 0 auto 30px auto;
     padding: 15px;
     border: 1px solid #dcd9d9;

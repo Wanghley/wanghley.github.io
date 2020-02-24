@@ -12,9 +12,14 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156583496-1"></script>
@@ -243,27 +248,90 @@
 
         <div id="courses">
             <h2 class="heading">Certificates</h2><br>
-            <div class="courses-block">                
-                <div class="list-group scroll">
-                    <div class="list-group-item">  
-                            <li onclick="window.open
-                            ('https://www.coursera.org/account/accomplishments/verify/SMGWZHJ3JZ4P',
-                            '_blank');"><img class="img-circle"
-                            src="https://media-exp2.licdn.com/dms/image/C4E0BAQHwshdBT8KsmA/company-logo_100_100/0?e=1587600000&v=beta&t=1K1ewVnSsKDH5Yt5QsVA3gaXW4VBpo8YZLVMjVtqoeE" 
-                            width="50" hspace="15"><b>Data Visualization with python by IBM on Coursera</b> - jan 2020</li>
-                            </li>
-
-                            <li onclick="window.open
-                            ('https://1drv.ms/b/s!AgWDit2YWLZ6gaJCiypV5bfAEoud3A',
-                            '_blank');"><img 
-                            src="https://www.fiosaude.org.br/wp-content/uploads/2015/12/fiocruz-pb1-255x300.jpg" 
-                            width="50" hspace="15"><b>Visualization of Protein Structures</b> - oct 2019</li>
-                            
-                            <li onclick="window.open
-                            ('https://1drv.ms/b/s!AgWDit2YWLZ6gaIZUS2v3Qu0GN6M7Q',
-                            '_blank');"><img class="img-circle" alt="Cinqueterre circle"
-                            src="images/CIC-UnB-logo.png" 
-                            width="50" hspace="15"><b>16th Congress of Scientific Initiation of DF</b> - set 2019</li>
+            <div class="courses-block"> 
+                
+                <div class="container">
+                    <div class="row blog" style="">
+                        <div class="col-md-11">
+                            <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+        
+                                <ol class="carousel-indicators">
+                                    <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#blogCarousel" data-slide-to="1"></li>
+                                </ol>
+        
+                                <!-- Carousel items -->
+                                <div class="carousel-inner">
+        
+                                    <div class="carousel-item active" style="vertical-align: middle;text-align: center;">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <a href="https://www.coursera.org/account/accomplishments/verify/SMGWZHJ3JZ4P" target="_blank">
+                                                    <img src="https://media-exp2.licdn.com/dms/image/C4E0BAQHwshdBT8KsmA/company-logo_100_100/0?e=1587600000&v=beta&t=1K1ewVnSsKDH5Yt5QsVA3gaXW4VBpo8YZLVMjVtqoeE" alt="Image" style="width:80%;">
+                                                    <p><b>Data Visualization with python by IBM on Coursera</b><br>jan 2020</p>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <a href="https://1drv.ms/b/s!AgWDit2YWLZ6gaJCiypV5bfAEoud3A" target="_blank">
+                                                    <img src="https://www.fiosaude.org.br/wp-content/uploads/2015/12/fiocruz-pb1-255x300.jpg" alt="Image" style="max-width:67%;">
+                                                    <p><b>Visualization of Protein Structures</b><br>oct 2019</p>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <a href="https://1drv.ms/b/s!AgWDit2YWLZ6gaIZUS2v3Qu0GN6M7Q" target="_blank">
+                                                    <img src="images/CIC-UnB-logo.png" alt="Image" style="max-width:85%;">
+                                                    <p><b>25th Initiation Congress
+                                                        Scientific Committee</b><br>set 2019</p>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <a href="https://1drv.ms/b/s!AgWDit2YWLZ6gaJApleTbeXTuiHQuw" target="_blank">
+                                                    <img src="https://www.fiosaude.org.br/wp-content/uploads/2015/12/fiocruz-pb1-255x300.jpg" alt="Image" style="max-width:67%;">
+                                                    <p><b>bioinformatics to detect new viruses</b><br>oct 2019</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!--.row-->
+                                    </div>
+                                    <!--.item-->
+        
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <a href="#">
+                                                    <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                                    <p><b></b></p>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <a href="#">
+                                                    <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <a href="#">
+                                                    <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <a href="#">
+                                                    <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!--.row-->
+                                    </div>
+                                    <!--.item-->        
+                                </div>
+                                <!--.carousel-inner-->
+                            </div>
+                            <!--.Carousel-->
+                            <br>
+                            <a href="#"><h3>See more...</h3></a>
+                            <br>
+                        </div>
+                    </div>
+                <!--
 
                             <li onclick="window.open
                             ('https://1drv.ms/b/s!AgWDit2YWLZ6gaIZUS2v3Qu0GN6M7Q',
@@ -362,7 +430,7 @@
 
                     </div>
                 </div>
-            </div>    
+            </div> -->  
         </div>
         <!-- End .education-block -->
 <!--
