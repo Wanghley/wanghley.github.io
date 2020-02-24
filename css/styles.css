@@ -97,7 +97,7 @@ text-decoration: none;
  }
 .courses-block {
     max-width: 80%;
-    max-height: 330px;
+    max-height: fit-content;
     margin: 0 auto 30px auto;
     padding: 15px;
     border: 1px solid #dcd9d9;
